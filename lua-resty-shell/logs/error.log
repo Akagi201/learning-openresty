@@ -1,0 +1,55 @@
+2015/11/24 14:47:09 [emerg] 47427#0: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2015/11/24 14:47:09 [emerg] 47427#0: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2015/11/24 14:47:09 [emerg] 47427#0: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2015/11/24 14:47:09 [emerg] 47427#0: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2015/11/24 14:47:09 [emerg] 47427#0: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2015/11/24 14:47:09 [emerg] 47427#0: still could not bind()
+2015/11/24 14:47:53 [error] 47674#0: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:23):6: unfinished string near '"Hello from:', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6698"
+2015/11/24 14:58:23 [error] 50437#0: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:23):6: unfinished string near '"Hello from:', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6697"
+2015/11/24 14:59:47 [error] 50956#0: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:23):6: unfinished string near '"Hello from:', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6696"
+2015/11/24 15:00:36 [error] 51331#0: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:23):2: module 'resty.shell' not found:
+	no field package.preload['resty.shell']
+	no file '/usr/local/Cellar/openresty/1.9.3.2/lualib/resty/shell.lua'
+	no file '/usr/local/Cellar/openresty/1.9.3.2/lualib/resty/shell/init.lua'
+	no file '/Users/akagi201/.lenv/current/luarocks/share/resty/shell.lua'
+	no file '/Users/akagi201/.lenv/current/luarocks/share/resty/shell/init.lua'
+	no file './resty/shell.lua'
+	no file '/usr/local/Cellar/openresty/1.9.3.2/luajit/share/luajit-2.1.0-beta1/resty/shell.lua'
+	no file '/usr/local/share/lua/5.1/resty/shell.lua'
+	no file '/usr/local/share/lua/5.1/resty/shell/init.lua'
+	no file '/usr/local/Cellar/openresty/1.9.3.2/luajit/share/lua/5.1/resty/shell.lua'
+	no file '/usr/local/Cellar/openresty/1.9.3.2/luajit/share/lua/5.1/resty/shell/init.lua'
+	no file '/usr/local/Cellar/openresty/1.9.3.2/lualib/resty/shell.so'
+	no file '/Users/akagi201/.lenv/current/luarocks/lib/resty/shell.so'
+	no file './resty/shell.so'
+	no file '/usr/local/lib/lua/5.1/resty/shell.so'
+	no file '/usr/local/Cellar/openresty/1.9.3.2/luajit/lib/lua/5.1/resty/shell.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/Cellar/openresty/1.9.3.2/lualib/resty.so'
+	no file '/Users/akagi201/.lenv/current/luarocks/lib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/Cellar/openresty/1.9.3.2/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:23):2: in function <content_by_lua(nginx.conf:23):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6695"
+2015/11/24 15:07:18 [emerg] 53104#0: bind() to 0.0.0.0:6695 failed (48: Address already in use)
+2015/11/24 15:07:18 [emerg] 53104#0: bind() to 0.0.0.0:6695 failed (48: Address already in use)
+2015/11/24 15:07:18 [emerg] 53104#0: bind() to 0.0.0.0:6695 failed (48: Address already in use)
+2015/11/24 15:07:18 [emerg] 53104#0: bind() to 0.0.0.0:6695 failed (48: Address already in use)
+2015/11/24 15:07:18 [emerg] 53104#0: bind() to 0.0.0.0:6695 failed (48: Address already in use)
+2015/11/24 15:11:31 [error] 53661#0: *12 lua tcp socket read timed out, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6694"
+2015/11/24 15:11:31 [alert] 53661#0: *12 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: 127.0.0.1, server: 0.0.0.0:6694
+2015/11/24 15:11:33 [error] 53661#0: *13 lua tcp socket read timed out, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6694"
+2015/11/24 15:11:33 [alert] 53661#0: *13 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: 127.0.0.1, server: 0.0.0.0:6694
+2015/11/24 15:11:34 [error] 53661#0: *14 lua tcp socket read timed out, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6694"
+2015/11/24 15:11:34 [error] 53661#0: *16 lua tcp socket read timed out, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6694"
+2015/11/24 15:11:34 [error] 53661#0: *19 lua tcp socket read timed out, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6694"
+2015/11/24 15:11:34 [error] 53661#0: *20 lua tcp socket read timed out, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6694"
+2015/11/24 15:11:34 [error] 53661#0: *23 lua tcp socket read timed out, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6694"
+2015/11/24 15:11:34 [error] 53661#0: *24 lua tcp socket read timed out, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6694"
+2015/11/24 15:11:34 [error] 53661#0: *26 lua tcp socket read timed out, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6694"
+2015/11/24 15:11:35 [error] 53661#0: *28 lua tcp socket read timed out, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6694"
+2015/11/24 15:11:35 [error] 53661#0: *30 lua tcp socket read timed out, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6694"
