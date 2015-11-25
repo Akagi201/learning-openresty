@@ -53,3 +53,7 @@ coroutine 0:
 2015/11/24 15:11:34 [error] 53661#0: *26 lua tcp socket read timed out, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6694"
 2015/11/24 15:11:35 [error] 53661#0: *28 lua tcp socket read timed out, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6694"
 2015/11/24 15:11:35 [error] 53661#0: *30 lua tcp socket read timed out, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:6694"
+2015/11/25 08:52:32 [alert] 51330#0: unlink() "/usr/local/var/run/openresty.pid" failed (2: No such file or directory)
+2015/11/25 08:52:32 [alert] 47673#0: unlink() "/usr/local/var/run/openresty.pid" failed (2: No such file or directory)
+2015/11/25 08:52:32 [alert] 50436#0: unlink() "/usr/local/var/run/openresty.pid" failed (2: No such file or directory)
+2015/11/25 08:52:32 [alert] 53220#0: unlink() "/usr/local/var/run/openresty.pid" failed (2: No such file or directory)
