@@ -1,0 +1,6 @@
+2015/11/29 23:23:18 [emerg] 55015#0: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2015/11/29 23:23:18 [emerg] 55015#0: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2015/11/29 23:23:18 [emerg] 55015#0: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2015/11/29 23:23:18 [emerg] 55015#0: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2015/11/29 23:23:18 [emerg] 55015#0: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2015/11/29 23:23:18 [emerg] 55015#0: still could not bind()
