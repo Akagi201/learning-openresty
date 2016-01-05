@@ -1,0 +1,50 @@
+2015/11/25 08:52:32 [alert] 43470#0: unlink() "/usr/local/var/run/openresty.pid" failed (2: No such file or directory)
+2015/11/26 17:29:14 [emerg] 58080#0: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2015/11/26 17:29:14 [emerg] 58080#0: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2015/11/26 17:29:14 [emerg] 58080#0: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2015/11/26 17:29:14 [emerg] 58080#0: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2015/11/26 17:29:14 [emerg] 58080#0: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2015/11/26 17:29:14 [emerg] 58080#0: still could not bind()
+2015/11/26 17:50:41 [emerg] 60698#0: bind() to 0.0.0.0:6698 failed (48: Address already in use)
+2015/11/26 17:50:41 [emerg] 60698#0: bind() to 0.0.0.0:6698 failed (48: Address already in use)
+2015/11/26 17:50:41 [emerg] 60698#0: bind() to 0.0.0.0:6698 failed (48: Address already in use)
+2015/11/26 17:50:41 [emerg] 60698#0: bind() to 0.0.0.0:6698 failed (48: Address already in use)
+2015/11/26 17:50:54 [emerg] 61209#0: bind() to 0.0.0.0:6698 failed (48: Address already in use)
+2015/11/26 17:50:54 [emerg] 61209#0: bind() to 0.0.0.0:6698 failed (48: Address already in use)
+2015/11/26 17:50:54 [emerg] 61209#0: bind() to 0.0.0.0:6698 failed (48: Address already in use)
+2015/11/26 17:50:54 [emerg] 61209#0: bind() to 0.0.0.0:6698 failed (48: Address already in use)
+2015/11/26 17:50:54 [emerg] 61209#0: bind() to 0.0.0.0:6698 failed (48: Address already in use)
+2015/11/26 17:50:54 [emerg] 61209#0: still could not bind()
+2015/11/26 18:34:43 [emerg] 67241#0: bind() to 0.0.0.0:6698 failed (48: Address already in use)
+2015/11/26 18:34:43 [emerg] 67241#0: bind() to 0.0.0.0:6698 failed (48: Address already in use)
+2015/11/26 18:34:43 [emerg] 67241#0: bind() to 0.0.0.0:6698 failed (48: Address already in use)
+2015/11/26 18:34:43 [emerg] 67241#0: bind() to 0.0.0.0:6698 failed (48: Address already in use)
+2015/11/26 18:34:43 [emerg] 67241#0: bind() to 0.0.0.0:6698 failed (48: Address already in use)
+2015/11/26 18:34:43 [emerg] 67241#0: still could not bind()
+2015/11/26 18:36:04 [error] 67681#0: *2 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):6: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	content_by_lua(nginx.conf:18):6: in function <content_by_lua(nginx.conf:18):1>, client: 127.0.0.1, server: , request: "GET /test?req=123 HTTP/1.1", host: "localhost:6698"
+2015/11/26 18:36:32 [error] 67681#0: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):6: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	content_by_lua(nginx.conf:18):6: in function <content_by_lua(nginx.conf:18):1>, client: 127.0.0.1, server: , request: "GET /test?req=123 HTTP/1.1", host: "localhost:6698"
+2015/11/26 18:36:32 [error] 67681#0: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):6: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	content_by_lua(nginx.conf:18):6: in function <content_by_lua(nginx.conf:18):1>, client: 127.0.0.1, server: , request: "GET /test?req=123 HTTP/1.1", host: "localhost:6698"
+2015/11/26 18:36:32 [error] 67681#0: *5 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):6: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	content_by_lua(nginx.conf:18):6: in function <content_by_lua(nginx.conf:18):1>, client: 127.0.0.1, server: , request: "GET /test?req=123 HTTP/1.1", host: "localhost:6698"
+2015/11/26 18:36:32 [error] 67681#0: *6 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):6: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	content_by_lua(nginx.conf:18):6: in function <content_by_lua(nginx.conf:18):1>, client: 127.0.0.1, server: , request: "GET /test?req=123 HTTP/1.1", host: "localhost:6698"
+2016/01/05 23:27:50 [emerg] 55055#0: open() "/usr/local/var/run/openresty.pid" failed (13: Permission denied)
+2016/01/05 23:28:37 [emerg] 55229#0: open() "/usr/local/var/run/openresty.pid" failed (13: Permission denied)
