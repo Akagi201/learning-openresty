@@ -24,15 +24,24 @@ end
 -- ngx.say(print_table(headers))
 
 -- test 2
-ngx.req.set_header('Foo1', {'Bar1', 'Bar2'})
-ngx.req.set_header('Foo2', 'Bar3')
+-- ngx.req.set_header('Foo1', {'Bar1', 'Bar2'})
+-- ngx.req.set_header('Foo2', 'Bar3')
 -- ngx.req.set_header('user-agent', nil)
-ngx.req.set_header('user-agent', {})
+-- ngx.req.set_header('user-agent', {})
 
-local res = ngx.location.capture('/sub_request_header')
+-- local res = ngx.location.capture('/sub_request_header')
 
-if res.status == ngx.HTTP_OK then
-  ngx.say(res.body)
-else
-  ngx.exit(res.status)
-end
+-- if res.status == ngx.HTTP_OK then
+  -- ngx.say(res.body)
+-- else
+  -- ngx.exit(res.status)
+-- end
+
+-- test 3
+
+local res = ''
+local host = ngx.var.http_host
+res = res .. host
+local m, err = ngx.re.match(host, '^([^:]+)')
+res = res .. ' ' .. m['Host']
+ngx.say(res)

@@ -2,3 +2,22 @@
 2016/01/06 23:15:12 [emerg] 6964#0: bind() to 0.0.0.0:2016 failed (48: Address already in use)
 2016/01/06 23:15:12 [emerg] 6964#0: bind() to 0.0.0.0:2016 failed (48: Address already in use)
 2016/01/06 23:15:12 [emerg] 6964#0: bind() to 0.0.0.0:2016 failed (48: Address already in use)
+2016/02/18 16:10:06 [emerg] 61222#0: bind() to 0.0.0.0:2016 failed (48: Address already in use)
+2016/02/18 16:10:06 [emerg] 61222#0: bind() to 0.0.0.0:2016 failed (48: Address already in use)
+2016/02/18 16:10:06 [emerg] 61222#0: bind() to 0.0.0.0:2016 failed (48: Address already in use)
+2016/02/18 16:31:04 [error] 62872#0: *2 lua entry thread aborted: runtime error: ./src/main.lua:46: attempt to concatenate local 'm' (a table value)
+stack traceback:
+coroutine 0:
+	./src/main.lua: in function <./src/main.lua:1>, client: 127.0.0.1, server: , request: "GET /main?a=a&b=b HTTP/1.1", host: "localhost:2016"
+2016/02/18 16:31:49 [error] 63093#0: *3 lua entry thread aborted: runtime error: ./src/main.lua:46: attempt to concatenate field 'Host' (a nil value)
+stack traceback:
+coroutine 0:
+	./src/main.lua: in function <./src/main.lua:1>, client: 127.0.0.1, server: , request: "GET /main?a=a&b=b HTTP/1.1", host: "localhost:2016"
+2016/02/18 16:31:51 [error] 63093#0: *4 lua entry thread aborted: runtime error: ./src/main.lua:46: attempt to concatenate field 'Host' (a nil value)
+stack traceback:
+coroutine 0:
+	./src/main.lua: in function <./src/main.lua:1>, client: 127.0.0.1, server: , request: "GET /main?a=a&b=b HTTP/1.1", host: "localhost:2016"
+2016/02/18 16:32:00 [error] 63093#0: *5 lua entry thread aborted: runtime error: ./src/main.lua:46: attempt to concatenate field 'Host' (a nil value)
+stack traceback:
+coroutine 0:
+	./src/main.lua: in function <./src/main.lua:1>, client: 127.0.0.1, server: , request: "GET /main?a=a&b=b HTTP/1.1", host: "localhost:2016"
